@@ -16,7 +16,6 @@ jobs:
       matrix:
         arch:
           - amd64
-          - arm64/v8
     steps:
 
       - name: setup-podman
